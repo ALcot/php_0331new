@@ -1,0 +1,197 @@
+body {
+  background-color: lightblue;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  height: 350px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.formArea {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.kon {
+  font-size: 100px;
+  margin-bottom: 30px;
+}
+
+.san {
+  font-size: 60px;
+}
+
+img.usagi {
+  width: 100px;
+  height: 100px;
+  margin: 0 30px;
+}
+
+.namae {
+  display: flex;
+  justify-content: center;
+}
+
+.itiran {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  padding: 50px 0;
+  background-color: #cab64a;
+}
+.footer-text {
+  color: #fff;
+}
+
+.log {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+input[type="submit"] {
+  border: none;
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.in {
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  height: 350px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.cp_ipradio {
+  width: 90%;
+  margin: 2em auto;
+  text-align: left;
+  text-align: center;
+}
+.cp_ipradio input[type="radio"] {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.cp_ipradio label {
+  position: relative;
+  display: inline-block;
+  margin-right: 30px;
+  padding-right: 10px;
+  padding-left: 35px;
+  cursor: pointer;
+}
+.cp_ipradio label::before {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 24px;
+  height: 24px;
+  content: " ";
+  border: 2px solid #da3c41;
+  border-radius: 4px;
+}
+.cp_ipradio input[type="radio"] + label::before {
+  border-radius: 18px;
+}
+.cp_ipradio input[type="radio"]:checked + label {
+  padding-left: 10px;
+  color: #ffffff;
+}
+.cp_ipradio input[type="radio"]:checked + label::before {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #da3c41;
+}
+/* Transition */
+.cp_ipradio label,
+.cp_ipradio label::before {
+  -webkit-transition: 0.25s all ease;
+  transition: 0.25s all ease;
+}
+
+.shurui {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.login {
+  text-align: center;
+  font-size: 30px;
+}
+
+.animal_box {
+  width: 450px;
+  height: 450px;
+  border: solid 3px black;
+  margin: 1.5em;
+  background-color: khaki;
+}
+
+.imgname_box {
+  display: flex;
+}
+
+.name_box {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.a_img {
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+  object-fit: cover;
+}
+.animal {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kaisetu_a {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.a_kaisetu {
+  text-align: center;
+}
+
+a.delete {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.shazai {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+}
